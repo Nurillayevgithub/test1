@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="https://static.tildacdn.com/tild3438-3034-4163-b136-663231356563/photo_2023-03-21_13-.jpg" type="image/x-icon">
+</head>
+
+<body class="register_body">
+ <div class="register_div">
+   <a href="/view/index.html" class="register_home">HOME</a> <br> <br>
+     
+      <form action="">
+        <label for="fname">First Name</label> <br>
+        <input type="name" id="fname" placeholder="Ali" required> <br>
+        <label for="lname">Last Name</label> <br>
+        <input type="name" id="lname" placeholder="Valiyev" required> <br>
+        <label for="pnumber">Phone number</label> <br>
+        <input type="number" id="pnumber" placeholder="+998 xxx xx xx" required> <br>
+        <label for="eml">Email</label> <br>
+        <input type="email" id="eml" placeholder="Someone@gmail.com" required> <br>
+        <label for="pasword">Password</label> <br>
+        <input type="password" id="pasword" minlength="6" maxlength="10" placeholder="at least 6 character" required > <br><br>
+    
+        <p>Choose your favourite education center</p>
+        <input type="radio" id="python" value="PYTHON" name="program">
+        <label for="puthon">STANFORD</label> 
+        <input type="radio" id="javaa" value="JAVA" name="program">
+        <label for="ccss">UDEMY</label> 
+        <input type="radio"  id="javasc" value="JS" name="program">
+        <label for="javasc">OXFORD</label>  <br><br>
+         
+        <p>Select your first language</p>
+        <input type="checkbox" id="engl" value="ENGLISH" >
+        <label for="engl">ENGLISH</label> 
+        <input type="checkbox" id="rrussian" value="RUSSIAN" >
+        <label for="rrussian">RUSSIAN</label> 
+        <input type="checkbox"  id="uzbek" value="UZBEK">
+        <label for="uzbek">UZBEK</label> <br> <br>
+
+        <label for="">Select your level</label> <br>
+        <select name="" id=""> 
+         <option value="">BEGINNER</option>
+         <option value="">ELEMENTARY</option>
+         <option value="">INTERMEDIATE</option>
+         <option value="">ADVANCED</option>
+        </select>
+         <br><br> 
+        
+        <label for="ddate">Start cource</label> <br> 
+        <input type="date" id="ddate"> <br> <br>
+        <label for="ddate">Finish cource</label> <br> 
+        <input type="date" id="ddate"> <br> <br>
+        <input type="file" > <br> <br>
+        <label for="send">Reset</label>
+        <input type="submit" id="clean" value="clean"><br><br>
+        <label for="send">Send</label>
+        <input type="submit" id="sendd" value="send"> <br>  
+    </form>
+  </div>   
+</body>
+</html>

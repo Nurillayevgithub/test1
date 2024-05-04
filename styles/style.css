@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: darkslateblue;
+}
+
+
+form {
+    justify-content: center;
+    text-align: center;
+}
+
+.pages {
+    justify-content: center;
+    text-align: center;
+}
+
+.home_picture {
+    width: 1360px;
+    height: 530px;
+}
+
+a {
+    text-decoration: none;
+}
+.picture{
+    width:700px;
+    height: 600px;
+}
+.oxford_picture{
+  margin-left: 500px;
+  width: 400px;
+  height: 200px ;
+   
+}
+.stanford_picture{
+    margin-left: 500px;
+    width: 400px;
+    height: 200px ;
+}
+.contacct{
+    justify-content: center;
+    text-align: center;
+}
+.register_home{
+   margin-left: 10px;
+   color: antiquewhite; 
+}
+.register_body{
+    background-image: url(https://img.razrisyika.ru/kart/30/1200/117441-na-angliyskom-5.jpg);
+}
+.register_div{
+     position: absolute;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     border: 1px ;
+     background-color: rgba(0, 0, 0, 0.8);
+     color: lightgreen;      
+}
+
+
