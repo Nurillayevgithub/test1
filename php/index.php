@@ -3,7 +3,6 @@ $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "dbname";
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Ulanish hosil qilinmadi: " . $conn->connect_error);
@@ -27,4 +26,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Xatolik yuz berdi: " . $conn->error;
     } }
-$conn->close();
+$conn->close();  
+?>
